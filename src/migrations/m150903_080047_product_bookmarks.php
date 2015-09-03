@@ -10,9 +10,9 @@ class m150903_080047_product_bookmarks extends Migration
         $this->insert(
             '{{%configurable}}',
             [
-                'module' => 'ProductBookmarks',
+                'module' => 'product-bookmarks',
                 'sort_order' => 99,
-                'section_name' => 'ProductBookmarks',
+                'section_name' => 'Product bookmarks',
                 'display_in_config' => 0,
             ]
         );
