@@ -22,8 +22,8 @@ class ConfigurationModel extends \app\modules\config\models\BaseConfigurationMod
     {
         return [
             'modules' => [
-                'PageRelationProperty' => [
-                    'class' => 'DotPlant\PageRelationProperty\Module',
+                'product-bookmarks' => [
+                    'class' => 'DotPlant\ProductBookmarks\Module',
                 ],
             ],
         ];
