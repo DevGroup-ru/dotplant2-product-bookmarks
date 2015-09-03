@@ -1,0 +1,11 @@
+{
+    "name": "dotplant/product-bookmarks",
+    "description": "Product bookmarks module for DotPlant2",
+    "type": "dotplant2-extension",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "DotPlant\\ProductBookmarks\\": "src/"
+        }
+    }
+}
